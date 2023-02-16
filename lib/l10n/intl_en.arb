@@ -1,0 +1,6 @@
+{
+ "run": "Comenzar",
+ "requiredfield":"Campo requerido",
+ "user":"Usuario",
+ "password":"Clave"
+}
