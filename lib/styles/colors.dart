@@ -9,4 +9,9 @@ class AppColors {
   static Color bgPrimaryColor = Color(0xffFFF059);
 
   static Color boxAlternativeColor = Color(0xff34495e);
+
+  static Color reparte = Color(0xff213E78);
+  static Color nys = Color(0xffDB5050);
+  static Color terminal = Color(0xffEA9000);
+  static Color received = Color(0xffAAB70D);
 }

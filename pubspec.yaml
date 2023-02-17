@@ -50,6 +50,7 @@ dependencies:
   geolocator: ^8.2.0
   geocoding: ^2.0.4
   sizer: ^2.0.15
+  flutter_slidable: ^2.0.0
 
 dependency_overrides:
   intl: 0.17.0-nullsafety.2
