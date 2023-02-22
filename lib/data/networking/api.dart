@@ -59,19 +59,19 @@ class API {
 
     params = {
       "data": {
-        "novedad": "No hay dirección",
-        "fecha_reporte": "2023-01-20",
-        "fecha_solucion": "2023-01-23",
-        "solucion": "entrega",
-        "guia": "3093934",
-        "cliente": "30934309"
+        "novedad": message,
+        "fecha_reporte": dateReport,
+        "fecha_solucion": dateExecute,
+        "solucion": message,
+        "guia": guia,
+        "cliente": cliente
       }
     };
     MyHttpResponse response = await postRequest(url, jsonMap: params);
 
     try {
       if (response.statusCode == 200) {
-        AlertWidget().message(context, response.message);
+        AlertWidget().message(context, "Guardado exitoso");
       } else {
         response.message = "Error";
         response.data = null;

@@ -98,7 +98,7 @@ Future<void> _getNys(NextDispatcher next, getNySAction action, Store<AppState> s
 Future<void> _SendNys(NextDispatcher next, getSendNySAction action, Store<AppState> store) async {
   var response = await API()
       .sendNyS(action.context, action.message, action.dateReport, action.dateExecute, action.messageSolutions, action.guia, action.cliente);
-
+  AlertWidget().message(action.context, "Guardado");
   switch (response.statusCode) {
     case AppSettings.statusCodeSuccess:
       break;
