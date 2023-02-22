@@ -34,6 +34,8 @@
     
         android:label="pruebaTest"
         android:icon="@mipmap/ic_launcher">
+          <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBwKHqkmEUFUXdHWGzTYZ15Dzufm2V4CBo"/>
         
         <activity
             android:name=".MainActivity"
@@ -64,6 +66,8 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+               <meta-data android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDI7nWwKvTCheygAE5dQrh8Lh5jSdL0Ajc"/>
           
         </activity>
         

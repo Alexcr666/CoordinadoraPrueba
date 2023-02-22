@@ -32,6 +32,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -43,5 +44,9 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Se necesita acceso a tu ubicación permanente para localizarte en las pantallas que lo requieren</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Se necesita acceso a tu ubicación permanente para localizarte en las pantallas que lo requieren</string>
 </dict>
 </plist>
